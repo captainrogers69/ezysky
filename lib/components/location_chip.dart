@@ -61,8 +61,7 @@ class LocationPickerWidget extends HookWidget {
   final double chipRunSpacing;
   final double vs;
   // Google Maps API Key - use provided or default
-  static const String _defaultGoogleMapsApiKey =
-      'AIzaSyC1U6s_cNHlar4BQQP17PDbwx93m8kRkp4';
+  static const String _defaultGoogleMapsApiKey = '';
 
   @override
   Widget build(BuildContext context) {
